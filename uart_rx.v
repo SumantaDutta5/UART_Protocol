@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module uart_reciever(input clk,rst,rx,rdy_clr,clken,output reg  rdy,output reg [7:0] data_out);
+module uart_receiver(input clk,rst,rx,rdy_clr,clken,output reg  rdy,output reg [7:0] data_out);
 
 always@(posedge clk)
     if(rst) begin
