@@ -43,6 +43,13 @@ The design follows the standard UART frame format:
 
 ---
 
+## Software used
+
+- AMD Vivado 2025.1
+- QuestaSim 2024.1
+
+---
+
 ## Applications
 
 - Serial communication interfaces
