@@ -14,6 +14,16 @@ This project implements:-
 - UART Transmitter
 - UART Receiver
 - UART top module
+- Verilog testbench
+
+Also, an entire SystemVerilog testbench architecture contained:-
+-  Transaction class
+-  Generator class
+-  Driver class
+-  An interface
+-  Monitor class
+-  A reference model
+-  Scoreboard class
 
 The design follows the standard UART frame format:
 
