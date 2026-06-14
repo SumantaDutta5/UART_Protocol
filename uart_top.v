@@ -14,6 +14,6 @@ baud_rate_generator bg(clk,rst,tx_clk_en,rx_clk_en);
 
 uart_sender us(clk,wr_en,tx_clk_en,rst,data_in,tx_temp,busy);
 
-uart_reciever ur(clk,rst,tx_temp,rdy_clr,rx_clk_en,rdy,data_out);
+uart_receiver ur(clk,rst,tx_temp,rdy_clr,rx_clk_en,rdy,data_out);
 
 endmodule
